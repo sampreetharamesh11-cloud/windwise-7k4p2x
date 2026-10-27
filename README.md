@@ -186,16 +186,16 @@ http://localhost:8000/api/wind?start_date=2026-01-15&end_date=2026-01-15
 - Forecast accuracy is calculated only for matched forecast and actual generation periods.
 - This application is an analytical aid and does not make energy purchasing decisions automatically.
 
+
 ## Deployment
 
-**Live application:** To be added after deployment.
+- **Live Frontend:** https://windwise-sooty.vercel.app/
+- **Backend API:** https://windwise-api-irgf.onrender.com
+- **API Health Check:** https://windwise-api-irgf.onrender.com/api/health
+- **API Documentation:** https://windwise-api-irgf.onrender.com/docs
 
-**Backend API:** To be added after deployment, if deployed separately.
+The frontend is deployed on Vercel, and the FastAPI backend is deployed on Render.
 
 ## AI Tools Acknowledgment
 
-AI assistance was used during development for guidance, debugging, code explanation, and documentation preparation. The application integrates with the Elexon API for wind generation data and performs forecast accuracy calculations in the backend.
-
-## License
-
-This project was developed as part of a software engineering assessment.
+AI tools, including ChatGPT, were used to assist with development, debugging, and documentation. The application was tested locally using Docker and deployed online using Vercel and Render.
